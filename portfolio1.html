@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Rowe — Web Developer</title>
+  <meta name="description"
+    content="Alex Rowe is a full-stack developer focused on clean interfaces and solid engineering, helping startups ship products they're proud of.">
+  <meta property="og:title" content="Alex Rowe — Web Developer">
+  <meta property="og:description"
+    content="Full-stack developer focused on clean interfaces and solid engineering underneath.">
+  <meta property="og:type" content="website">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23BC5A33'/%3E%3Ctext x='50' y='70' font-size='56' font-family='Georgia,serif' font-style='italic' fill='white' text-anchor='middle'%3Ea%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="portfolio1.css">
+
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="bg-shape a"></div>
+  <div class="bg-shape b"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="app">
+    <header class="topnav">
+      <div class="logo">yuki<span>.portfolio</span></div>
+      <nav class="navlinks" id="navlinks">
+        <div class="nav-pill" id="navPill"></div>
+        <button class="active" data-target="home">Home</button>
+        <button data-target="about">About</button>
+        <button data-target="portfolio">Portfolio</button>
+        <button data-target="contact">Contact</button>
+        <button class="hire" data-target="contact">Hire me</button>
+      </nav>
+    </header>
+
+    <main class="stage" id="main-content">
+
+      <section class="panel active" id="home">
+        <div class="home-copy">
+          <div class="eyebrow">Available for freelance work</div>
+          <h1>I build <span class="u">fast</span>, thoughtful web products.</h1>
+          <p>Full-stack developer focused on clean interfaces and solid engineering underneath. I help startups and
+            small teams ship products they're proud of.</p>
+          <div class="home-cta">
+            <button class="btn primary" data-target="portfolio">
+              <span>View my work</span>
+              <span class="btn-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </span>
+            </button>
+            <button class="btn ghost" data-target="contact">Get in touch</button>
+          </div>
+          <div class="home-stats">
+            <div class="s">
+              <div class="n">6+</div>
+              <div class="l">Years experience</div>
+            </div>
+            <div class="s">
+              <div class="n">34</div>
+              <div class="l">Projects shipped</div>
+            </div>
+            <div class="s">
+              <div class="n">98%</div>
+              <div class="l">Client satisfaction</div>
+            </div>
+          </div>
+        </div>
+        <div class="home-visual">
+          <div class="avatar-shell">
+            <div class="avatar-card">
+              <div class="initials">AR</div>
+            </div>
+          </div>
+          <div class="float-chip c1"><span class="dot"></span> Open to work</div>
+          <div class="float-chip c2">⚡ React · Node · Go</div>
+        </div>
+      </section>
+
+      <section class="panel" id="about">
+        <div class="about-grid">
+          <div class="left">
+            <div class="section-tag">About me</div>
+            <h2>Six years turning ideas into shipped software.</h2>
+            <p>I work across the stack, from interface details to backend architecture. My focus is always the same:
+              build things that are fast, accessible, and easy to maintain long after launch.</p>
+            <div class="badge-row">
+              <span>React / Next.js</span>
+              <span>TypeScript</span>
+              <span>Node.js</span>
+              <span>PostgreSQL</span>
+              <span>AWS</span>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="stat-card spotlight">
+              <div class="n">34</div>
+              <div class="l">Products launched</div>
+            </div>
+
+            <div class="stat-card spotlight">
+              <div class="n">12</div>
+              <div class="l">Happy clients</div>
+            </div>
+
+            <div class="stat-card spotlight">
+              <div class="n">3</div>
+              <div class="l">Teams founded at</div>
+            </div>
+
+            <div class="stat-card spotlight">
+              <div class="n">6</div>
+              <div class="l">Years of craft</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="portfolio">
+        <div class="head">
+          <h2>Selected work</h2>
+        </div>
+        <div class="work-grid">
+          <div class="work-card spotlight" tabindex="0">
+            <div class="work-thumb">01</div>
+            <h3>Ledgerline</h3>
+            <p>Real-time expense tracking built for small studios to reconcile in seconds.</p>
+            <div class="tags"><span>React</span><span>Node</span></div>
+          </div>
+          <div class="work-card spotlight" tabindex="0">
+            <div class="work-thumb">02</div>
+            <h3>Fieldnote</h3>
+            <p>Offline-first survey tool for researchers working without reliable connectivity.</p>
+            <div class="tags"><span>Svelte</span><span>Go</span></div>
+          </div>
+          <div class="work-card spotlight" tabindex="0">
+            <div class="work-thumb">03</div>
+            <h3>Kiln</h3>
+            <p>Visual build-pipeline editor that replaced three internal tools for one client.</p>
+            <div class="tags"><span>TypeScript</span><span>Rust</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="contact">
+        <div class="contact-wrap">
+          <div class="left">
+            <div class="section-tag">Get in touch</div>
+            <h2>Let's build something great together.</h2>
+            <p>Have a project in mind or just want to say hi? My inbox is always open.</p>
+          </div>
+          <div class="right">
+            <a class="contact-row spotlight" href="mailto:huynhphanyuki@gmail.com">
+              <span class="row-text"><span class="label">Email</span><span
+                  class="value">huynhphanyuki@gmail.com</span></span>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </span>
+            </a>
+            <a class="contact-row spotlight" href="https://github.com/huynhphanyuki-design">
+              <span class="row-text"><span class="label">GitHub</span><span
+                  class="value">github.com/huynhphanyuki</span></span>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </span>
+            </a>
+            <a class="contact-row spotlight" href="https://linkedin.com/in/huynhphanyuki">
+              <span class="row-text"><span class="label">LinkedIn</span><span
+                  class="value">linkedin.com/in/huynhphanyuki</span></span>
+              <span class="arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const buttons = document.querySelectorAll('[data-target]');
+    const navButtons = document.querySelectorAll('.navlinks button:not(.hire)');
+    const pill = document.getElementById('navPill');
+
+    function movePill(btn) {
+      const navRect = document.getElementById('navlinks').getBoundingClientRect();
+      const r = btn.getBoundingClientRect();
+      pill.style.width = r.width + 'px';
+      pill.style.transform = `translateX(${r.left - navRect.left - 5}px)`;
+    }
+
+    function goTo(target) {
+      const current = document.querySelector('.panel.active');
+      const next = document.getElementById(target);
+      if (!next || next === current) return;
+
+      navButtons.forEach(b => b.classList.remove('active'));
+      const navBtn = document.querySelector(`.navlinks button[data-target="${target}"]:not(.hire)`);
+      if (navBtn) { navBtn.classList.add('active'); movePill(navBtn); }
+
+      if (current) {
+        current.classList.add('exit-left');
+        current.classList.remove('active');
+        setTimeout(() => current.classList.remove('exit-left'), 600);
+      }
+      next.classList.add('active');
+    }
+
+    buttons.forEach(btn => btn.addEventListener('click', () => goTo(btn.dataset.target)));
+
+    window.addEventListener('load', () => movePill(document.querySelector('.navlinks button.active')));
+    window.addEventListener('resize', () => movePill(document.querySelector('.navlinks button.active')));
+
+    const order = ['home', 'about', 'portfolio', 'contact'];
+    document.addEventListener('keydown', e => {
+      const activeId = document.querySelector('.panel.active').id;
+      let i = order.indexOf(activeId);
+      if (e.key === 'ArrowRight') i = (i + 1) % order.length;
+      else if (e.key === 'ArrowLeft') i = (i - 1 + order.length) % order.length;
+      else return;
+      goTo(order[i]);
+    });
+
+    // Cursor-tracked spotlight glow on cards and rows. Purely decorative,
+    // so it's skipped entirely when the user prefers reduced motion.
+    if (!prefersReduced) {
+      document.querySelectorAll('.spotlight').forEach(el => {
+        el.addEventListener('pointermove', e => {
+          const r = el.getBoundingClientRect();
+          el.style.setProperty('--mx', `${e.clientX - r.left}px`);
+          el.style.setProperty('--my', `${e.clientY - r.top}px`);
+        });
+      });
+
+      // Subtle magnetic pull on primary buttons.
+      document.querySelectorAll('.btn').forEach(btn => {
+        btn.addEventListener('pointermove', e => {
+          const r = btn.getBoundingClientRect();
+          const x = (e.clientX - r.left - r.width / 2) * 0.18;
+          const y = (e.clientY - r.top - r.height / 2) * 0.28;
+          btn.style.transform = `translate(${x}px, ${y}px)`;
+        });
+        btn.addEventListener('pointerleave', () => {
+          btn.style.transform = '';
+        });
+      });
+    }
+  </script>
+
+</body>
+
+</html>
